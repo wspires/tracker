@@ -1,6 +1,6 @@
 # tracker
 
-=== Overview ===
+## Overview
 Class tracker is a factory that can access objects it has made.
 Tracked objects are not owned by the tracker; callers own the objects made.
 A tracked object that is deleted will automatically detach itself from its tracker.
@@ -16,7 +16,7 @@ This class and its tests demonstrate various features of modern c++ (c++11/14):
 * Explicitly defaulted and deleted special member functions
 * Smart pointers
 
-=== Files ===
+## Files
 * tracker.hpp - Implementation of tracker class
 * tracker_test.cpp - Unit tests for tracker
 * find.hpp - Helper for tracker container
@@ -25,7 +25,7 @@ This class and its tests demonstrate various features of modern c++ (c++11/14):
 * run.sh - Make and run tests
 * Catch2/ - Small, header-only unit test framework (not my code: https://github.com/catchorg/Catch2)
 
-=== Build and Run ===
+## Build and Run
 Build and run at the command-line:
 $ ./run.sh
 
@@ -34,7 +34,7 @@ $ g++ -c  -std=c++14 -g -Wall tracker_test.cpp  -ICatch2/single_include
 $ g++  -std=c++14 -g -Wall -o tracker_test tracker_test.o    -lm   -ICatch2/single_include
 $ tracker_test --success 
 
-=== Supported Environments ===
+## Supported Environments
 * Ubuntu 18.04
   g++ (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
 

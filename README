@@ -1,5 +1,3 @@
-# tracker
-
 === Overview ===
 Class tracker is a factory that can access objects it has made.
 Tracked objects are not owned by the tracker; callers own the objects made.

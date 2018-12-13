@@ -30,9 +30,11 @@ Build and run at the command-line:
 $ ./run.sh
 
 This will call make using the included Makefile and run the tests. Equivalently:
+```
 $ g++ -c  -std=c++14 -g -Wall tracker_test.cpp  -ICatch2/single_include
 $ g++  -std=c++14 -g -Wall -o tracker_test tracker_test.o    -lm   -ICatch2/single_include
 $ tracker_test --success 
+```
 
 ## Supported Environments
 * Ubuntu 18.04
